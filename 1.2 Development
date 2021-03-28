@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta  http-equiv="Content-Type" content="text/html; charset="utf-8">
+<meta name="author" content="Laura Quirk">
+<meta name="description" content="Short description">
+<title> Laura Quirk, UX/UI Designer NYC</title>
+
+</head>
+<body>
+<! -- For the header -- >
+<header>
+<! -- For the navigation -- >
+<div>
+<img src="https://via.placeholder.com/150x50?text=Logo" alt="Your Name" ></div>
+<nav>
+  <a href="#">Work</a>
+  <a href="#">About</a>
+  <a href="#">Contact</a>
+</nav>
+</div>
+</header>
+
+<! -- For the hero section -->
+<div>
+<div>hero</div>
+</div>
+<!-- For your work/projects -->
+<div>
+<div>work/projects</div>
+</div>
+<!-- For the footer -->
+<footer>
+<div>footer</div>
+</footer>
+</body>
+</html>
