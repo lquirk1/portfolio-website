@@ -1,0 +1,62 @@
+/*
+Colors Used::
+Primary Color (Green): #A3BCB6;
+Secondary Color (Black) : #3C403D;
+Secondary Color (Light Green): #DADED4;
+Secondary Color (White) : #FFFFFF;
+*/
+
+body{
+    background-color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px; /* Sets the font size to 16px */
+    font-weight: 400; /* Sets the font weight to 400 */
+    line-height: 1.6; /* Sets the line-height to 1.6 */
+    color: #3C403D;
+}
+h1, h2, h3 {
+    font-family: 'Open sans', sans-serif;
+    line-height: 1.4;
+    font-size: 2.75em;
+    font-weight: 600;
+}
+img{
+    width: 100%;
+}
+
+a{
+    color:#A3BCB6;
+    text-decoration: none; /* No underlining */
+}
+a:hover {
+    color:#3C403D ;
+    text-decoration: underline; /* Underlining when hovering over a link */
+}
+
+.button{
+    display: inline-block;
+    background-color: #A3BCB6;
+    color: #ffffff; 
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 3px;
+    border-bottom: 2px solid #3C403D;
+    transition: 0.2s opacity;
+}
+
+.button:hover {
+    opacity: 0.8; 
+    text-decoration: none;
+}
+
+.button.contact {
+    background-color: transparent;
+    color: #A3BCB6;
+    text-transform: uppercase;
+    border: 2px solid #3C403D;
+}
+
+.button.contact:hover {
+    background-color: #A3BCB6;
+    color: #ffffff;
+}
