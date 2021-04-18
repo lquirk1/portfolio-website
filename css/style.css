@@ -151,7 +151,7 @@ nav > ul > li > a:hover {
 #hero {
     background-color: #DADED4;
     padding: 20px 0;
-    display: inline-block;
+    display: block;
     width: 100%;
 }
 
