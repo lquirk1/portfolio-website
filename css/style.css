@@ -126,15 +126,26 @@ selector {
     max-width: 100px;
 }
 
+nav {
+    display: inline-block;
+    width: 100%;
+}
+
 nav > ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
+nav > ul > li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0;
+}
 
 
 nav > ul > li > a {
+    display: inline-block;
     padding: 0 15px;
     text-transform: uppercase;
     font-weight: 700;
@@ -172,6 +183,8 @@ main {
     border-bottom: 1px solid #4a4a4a;
 }
 
+/* Navigation */
+
 .navtoggle li:not(:last-child) {
     display: none;
 }
@@ -179,6 +192,8 @@ main {
 .navtoggle, .navtoggle.responsive {
     position: relative;
 }
+
+/* hamburger menu */
 
 .navtoggle li .footerlogo {
     position: absolute;
@@ -188,9 +203,6 @@ main {
     padding-right: 0;
 }
 
-.navtoggle.responsive li {
-    display: block;
-}
 
 .navtoggle.responsive nav {
     padding: 24px 0 0;
@@ -234,6 +246,7 @@ Medium devices (640px and larger)
     }
     nav > ul > li {
         display: inline-block;
+        position: relative;
     }
     .navtoggle li:not(:last-child) {
         display: inline-block;
@@ -241,8 +254,8 @@ Medium devices (640px and larger)
     .navtoggle li:last-child {
         display: none;
     }
-   nav > ul {
-       margin: 1em 0;
+    nav > ul {
+        margin: 1em 0;
    }
 }
 
