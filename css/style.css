@@ -99,7 +99,7 @@ header{
 .container {
     padding: 0 15px;
 }
-selector {
+.selector {
     margin: 0 auto;
 }
 
@@ -126,6 +126,8 @@ selector {
     max-width: 100px;
 }
 
+/* Navigation */
+
 nav {
     display: inline-block;
     width: 100%;
@@ -145,7 +147,7 @@ nav > ul > li {
 
 
 nav > ul > li > a {
-    display: inline-block;
+    
     padding: 0 15px;
     text-transform: uppercase;
     font-weight: 700;
@@ -155,6 +157,45 @@ nav > ul > li > a {
 nav > ul > li > a:hover {
     color:#A3BCB6;
     text-decoration: underline; /* Underlining when hovering over a link */
+}
+
+.navtoggle li:not(:last-child) {
+    display: none;
+}
+
+.navtoggle {
+    position:relative;
+}
+
+
+.navtoggle, .navtoggle.responsive {
+    position: relative;
+}
+
+/* hamburger menu */
+
+.navtoggle li .footerlogo {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    font-size: 20px;
+    padding-right: 0;
+}
+
+
+.navtoggle.responsive nav {
+    padding: 24px 0 0;
+}
+
+.navtoggle.responsive li {
+    display: block;
+    padding: 10px 0;
+    border-top: 1px solid rgba(255,127,80,0.5);
+    text-align: right;
+}
+
+.navtoggle.responsive li:last-child {
+    padding: 0 0 10px;
 }
 
 #hero {
@@ -183,40 +224,7 @@ main {
     border-bottom: 1px solid #4a4a4a;
 }
 
-/* Navigation */
 
-.navtoggle li:not(:last-child) {
-    display: none;
-}
-
-.navtoggle, .navtoggle.responsive {
-    position: relative;
-}
-
-/* hamburger menu */
-
-.navtoggle li .footerlogo {
-    position: absolute;
-    right: 0;
-    top: 2px;
-    font-size: 20px;
-    padding-right: 0;
-}
-
-
-.navtoggle.responsive nav {
-    padding: 24px 0 0;
-}
-
-.navtoggle.responsive li {
-    display: block;
-    padding: 10px 0;
-    border-top: 1px solid rgba(255,127,80,0.5);
-}
-
-.navtoggle.responsive li:last-child {
-    padding: 0 0 10px;
-}
 
 /* ============================
 Medium devices (640px and larger)

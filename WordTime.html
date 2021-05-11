@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+     <head>
+         <meta  http-equiv="Content-Type" content="text/html; charset=utf-8">
+         <meta name="author" content="Laura Quirk">
+         <meta name="description" content="Short description">
+         <title> Laura Quirk, UX/UI Designer NYC</title>
+         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+         <link rel="stylesheet" type="text/css" href="css/style.css">
+         <link rel="preconnect" href="https://fonts.gstatic.com">
+         <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@600&display=swap" rel="stylesheet"> 
+         <meta name="viewport" content="width=device-width, initial-scale=1">  
+         <script src="https://kit.fontawesome.com/e6aa32bfe8.js" crossorigin="anonymous"></script>
+         <!-- For the hero section -->
+    </head>
+    <body class="container" id="wordtime">
+        <header id="header">
+            <div class="container">
+             <div class="navtoggle" id="myNavtoggle">
+                <a href="index.html">
+                <img class="logo"
+                 src="img/logo_new.svg" alt="Laura Quirk">
+                </a>
+                 <nav>
+                     <ul>
+                         <li><a href="index.html">Work</a></li>
+                         <li><a href="about.html">About</a></li>
+                         <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+                         <li><a href="javascript:void(0);" class="footerlogo" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+                     </ul>
+                </nav>
+             </div>
+            </div>
+         </header>
+         <main class="container">
+             <div class="Wordtime">
+                  <div>
+                     <h1>Word Time</h1>
+                  </div>
+                  <picture>
+                       <source 
+                          srcset="img/vocab/wt_projectpage.jpg"
+                          media=" (max-width:767px)"
+                       />
+                       <img src="img/vocab/wt_projectpage.jpg" alt="wordtimecover"/>
+                </picture> 
+                </div>
+         </main>
+            
+       <!-- For the footer -->
+       <footer id="contact" class="banner">
+            <div class="container">
+                 <h2>Get in Touch</h2>
+                 <p>
+                    If you like my work and want to get in touch, you can reach me at <a href ="tel:1-718-873-6562">1-718-873-6562</a>.  Prefer sending a message? Check out the link to my E-mail and Linkedin below.
+                 </p>
+            </div>
+    
+            <div class="container">
+                <a 
+                href="Lquirk1@binghamton.edu" target="_blank">
+                <img class="footerlogo"
+                 src="img/gmailicon.svg" alt="gmail">
+              </a>
+              <!--Social Media Layout and Placeholders-->
+             <a 
+             href="https://www.linkedin.com/in/laura-quirk-975553156/" 
+             target="_blank">
+             <img class="footerlogo"
+             src="img/linkedin_icon.svg" alt="Linkedin">
+       </a>
+         </div>
+        
+         <p>Copyright Laura Quirk 2020</p>
+     </footer> 
+     <script
+       src="https://code.jquery.com/jquery-3.6.0.min.js"
+       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+       crossorigin="anonymous">
+     </script>
+     <script src="js/script.js"></script>
+   </body>
+</html>
