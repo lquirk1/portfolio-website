@@ -4,6 +4,7 @@ Primary Color (Green): #A3BCB6;
 Secondary Color (Black) : #3C403D;
 Secondary Color (Light Green): #DADED4;
 Secondary Color (White) : #FFFFFF;
+For Buttons : #484848
 */
 
 * {
@@ -24,6 +25,14 @@ h1, h2, h3  {
     line-height: 1.4;
     font-size: 2.75em;
     font-weight: 600;
+}
+
+h4 {
+    font-family: 'Open sans', sans-serif;
+    line-height: 1.4;
+    font-size: 1.5em;
+    font-weight: 200;
+
 }
 img{
     width: 100%;
@@ -49,7 +58,7 @@ a:hover {
 .button{
     display: inline-block;
     background-color: #A3BCB6;
-    color: #ffffff; 
+    color: #484848; 
     font-weight: 600;
     padding: 10px;
     border-radius: 3px;
@@ -112,7 +121,7 @@ header{
     clear: both;
     display: table;
 }
-#hero h2 {
+#hero h4 {
     text-align: center;
     margin: 0;
     padding: 0.67em 0;
@@ -147,7 +156,7 @@ nav > ul > li {
 
 
 nav > ul > li > a {
-    
+    display: inline-block;
     padding: 0 15px;
     text-transform: uppercase;
     font-weight: 700;
@@ -161,10 +170,6 @@ nav > ul > li > a:hover {
 
 .navtoggle li:not(:last-child) {
     display: none;
-}
-
-.navtoggle {
-    position:relative;
 }
 
 
